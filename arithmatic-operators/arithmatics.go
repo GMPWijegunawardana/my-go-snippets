@@ -39,7 +39,21 @@ func main() {
 	
 	*/
 
+	//convertions 
+
+	var intNum int = 10
+	var floatNum float64 = 20.5
+
+	Sum := intNum + int(floatNum) // mekedi warahan athule dammama float ekath int ekak widiyata gannawa 
+	fmt.Println(Sum)
+
+	// eth mekedi enne 30 witharai dashama 5 print wen  na
 	
+
+	Sum2 := float64(intNum) + floatNum 
+	fmt.Println(Sum2)  // mehema dammama 30.5 widiyata eno
+	
+		
 
 
 
